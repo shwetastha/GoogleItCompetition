@@ -1,0 +1,17 @@
+<script>
+		$(document).ready(function(){
+		setInterval(function(){
+				$.ajax({
+					url: 'http://localhost/googling/servertime.php',
+					dataType: 'html',
+						success: function(data) {
+							$('#timer').html($(data).filter('#disp'));
+							//or $(data).filter('#single_portfolio')
+						}
+						if($(data).filter('#disp')){
+						
+						}
+				});
+			}, 1000);
+		}); 
+		</script>

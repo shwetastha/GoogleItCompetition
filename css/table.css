@@ -1,0 +1,35 @@
+/* 
+    Document   : table
+    Created on : Dec 26, 2013, 2:09:10 PM
+    Author     : sony
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.container{
+    display:table;
+    width:90%;
+    border-collapse: collapse; 
+    }
+.heading{
+     font-weight: bold;
+     display:table-row;
+     background-color: #CCC;
+     text-align: center;
+     line-height: 25px;
+     font-size: 14px;
+     font-family:georgia;
+     color: #0b670c;
+    
+}
+.table-row{  
+     display:table-row;
+     text-align: center;
+}
+.col{
+    display:table-cell;
+    text-align: left;
+   border: 1px solid #CCC; 
+}
+input{
+	border:none;
+}
